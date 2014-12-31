@@ -1,0 +1,31 @@
+{
+  "name": "gl-triangle-strip-indexer",
+  "version": "1.0.0",
+  "description": "create element indices for triangle strip meshes",
+  "main": "create-indices.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chrisdickinson/gl-triangle-strip-indexer.git"
+  },
+  "keywords": [
+    "webgl",
+    "browserify",
+    "triangle_strip",
+    "triangle",
+    "strip",
+    "element_array",
+    "element"
+  ],
+  "author": "Chris Dickinson <chris@neversaw.us> (http://neversaw.us/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisdickinson/gl-triangle-strip-indexer/issues"
+  },
+  "homepage": "https://github.com/chrisdickinson/gl-triangle-strip-indexer",
+  "devDependencies": {
+    "tape": "^3.0.3"
+  }
+}
