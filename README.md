@@ -30,7 +30,7 @@ vao.draw(gl.TRIANGLE_STRIP, indexBuffer.length)
 #### `createIndices(width, height[, out]) -> out`
 
 Returns a typed array containing indexes representing a triangle strip. Each alternating
-column will introduce two degenerate triangles, and produces the following pattern:
+column will introduce one degenerate triangle, and produces the following pattern:
 
 ```
   *--*--*
